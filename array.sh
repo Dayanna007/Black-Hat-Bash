@@ -6,4 +6,5 @@ set +x
 echo "${IP_ADDRESSES[0]}"
 chmod u+x array.sh
 unset IP_ADDRESSES[1]
+IP_ADDRESSES[0]="192.168.1.10"
 echo "${IP_ADDRESSES[*]}"
